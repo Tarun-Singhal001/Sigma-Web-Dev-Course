@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+
+    <!-- In this "autofocus" and "required" are bests dont't forgot to use them  -->
+
+    <form action="post">
+        <div class="text">
+            <label for="username">Enter name</label>
+            <input type="text" name="username" placeholder="Enter Your username" autofocus>
+        </div>
+        <div class="radio button">
+            <input type="radio" value="male" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" name="subscribe" id="subscribe" value="yes" required>
+            <label for="subscribe">Subscribe to newsletter</label>
+        </div>
+        <div class="textarea">
+            <label for="comment">Enter your comment</label>
+            <br>
+            <textarea name="comment" id="comment" cols="30" rows="4"></textarea>
+        </div>
+        <div class="select">
+            <select name="fruits" id="fruits">
+                <option value="apple">Apple</option>
+                <option value="Banana">Banana</option>
+                <option value="cherry">Cherry</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,7 +1,0 @@
-Welcome to Full Stack Web Development
-
-In Lac-1 
-
-Download VS Code and then install it
-Enable auto save option in vs code
-

@@ -1,0 +1,14 @@
+Tags in HTML
+
+There are mainly two types of Tags
+1. Self Closing Tag
+    meta Tag
+    anchor Tag
+    break Tag
+
+2. Paired Tag
+    html Tag
+    head Tag
+    body Tag
+
+attributes:  Which adds more information about a Tag.
